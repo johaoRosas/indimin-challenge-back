@@ -33,8 +33,7 @@ namespace indiminchallenge.Controllers
                 return BadRequest(Error);
             }
         }
-
-         [HttpGet("/task/")]
+        [HttpGet("/api/task/detail/")]
         public ActionResult<List<Task>> GetByCityzen(int id)
         {
 
